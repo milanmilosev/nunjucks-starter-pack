@@ -3,6 +3,4 @@ node_modules
 
 ## OS X
 .DS_Store
-
-#Dist
-dist
+dist/

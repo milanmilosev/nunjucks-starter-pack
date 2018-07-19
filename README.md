@@ -19,9 +19,9 @@ Use this document as a way to quickly start any new project.
 ## Structure 
 - The `src` directory contains development code.
 - Compiled code for production can be found in the `dist` directory. 
-  (dist directory will be automatically created after running the command ` gulp prod `)
+  (dist directory will be automatically created after running the command 'gulp prod' )
 
-`
+```bash
 .
 ├── app/
 |   ├── css/
@@ -52,7 +52,7 @@ Use this document as a way to quickly start any new project.
     ├── burger-4.html
     ├── css/
     └── img/
-`
+```
 
 
 ## Features
