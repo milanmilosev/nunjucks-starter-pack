@@ -22,7 +22,7 @@ Use this document as a way to quickly start any new project.
 
 
 ## Example
-Set the page and heading title from parent page.
+Set the page title and heading from parent.
 ![alt text](https://raw.githubusercontent.com/milanmilosev/nunjucks-starter-pack/master/app/img/changing%20the%20page%20title.gif)
 
 ## For more information
