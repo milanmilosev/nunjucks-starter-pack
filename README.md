@@ -26,6 +26,6 @@ Set the page and heading title from parent page.
 ![alt text](https://raw.githubusercontent.com/milanmilosev/nunjucks-starter-pack/master/app/img/changing%20the%20page%20title.gif)
 
 ## For more information
-Nunjucks by Mozilla official docs: https://mozilla.github.io/nunjucks
-Nunjucks template syntax definition for VS Code https://marketplace.visualstudio.com/items?itemName=ronnidc.nunjucks
+- Nunjucks by Mozilla official docs: https://mozilla.github.io/nunjucks
+- Nunjucks template syntax definition for VS Code https://marketplace.visualstudio.com/items?itemName=ronnidc.nunjucks
 
