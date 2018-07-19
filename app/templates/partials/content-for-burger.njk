@@ -1,0 +1,77 @@
+<!-- app/templates/partials/content.njk -->
+<div class="starter-template">
+    <h1 class="font-weight-bold">You choose 👉 <span class="text-warning">{{ page.title }}</span></h1>
+    <p class="lead">You can change this data in /pages/[name-of-page].njk</p>
+</div>
+<div class="container">
+    <div class="row text-center text-lg-left">
+        <div class="col-lg-5 col-md-6 col-xs-12">
+            <a href="#" class="d-block h-100">
+                <img class="img-fluid" src="{{ page.image }}" alt="">
+            </a>
+        </div>
+        <div class="col-lg-7 col-md-6 col-xs-12">
+            <p>{{ page.description }}</p>
+        </div>
+    </div>
+    <div class="my-4 section__table">
+        <table>
+            <thead>
+                <tr>
+                    <th>NUTRITIONAL INFORMATION</th>
+                    <th>pro 100g</th>
+                    <th>Portion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Calories</td>
+                    <td>{{ table.Calories100 }} kJ</td>
+                    <td>{{ table.CaloriesPortion }} kJ</td>
+                </tr>
+                <tr>
+                    <td>Protein</td>
+                    <td>{{ table.Protein100 }} g</td>
+                    <td>{{ table.ProteinPortion }} g</td>
+                </tr>
+                <tr>
+                    <td>Carbohydrates</td>
+                    <td>{{ table.Carbohydrates100 }} g</td>
+                    <td>{{ table.CarbohydratesPortion }} g</td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td>{{ table.Sugar100 }} g</td>
+                    <td>{{ table.SugarPortion }} g</td>
+                </tr>
+                <tr>
+                    <td>Fat</td>
+                    <td>{{ table.Fat100 }} g</td>
+                    <td>{{ table.FatPortion }} g</td>
+                </tr>
+                <tr>
+                    <td>Saturated Fat</td>
+                    <td>{{ table.SaturatedFat100 }} g</td>
+                    <td>{{ table.SaturatedFatPortion }} g</td>
+                </tr>
+                <tr>
+                    <td>Trans Fat</td>
+                    <td>{{ table.TransFat100 }} g</td>
+                    <td>{{ table.TransFatPortion }} g</td>
+                </tr>
+                <tr>
+                    <td>Cholesterol</td>
+                    <td>{{ table.Cholesterol100 }} mg</td>
+                    <td>{{ table.CholesterolPortion }} mg</td>
+                </tr>
+                <tr>
+                    <td>Sodium</td>
+                    <td>{{ table.Sodium100 }} mg</td>
+                    <td>{{ table.SodiumPortion }} mg</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="my-2"><strong>Allergens:</strong> {{ table.Allergens }}</p>
+    </div>
+
+</div>
