@@ -16,6 +16,14 @@ Use this document as a way to quickly start any new project.
 ## Production
 - Run command ` gulp prod `
 
+## Features
+- Gulp.js
+- SASS compiler
+- CSS minify
+- Nunjucks render
+- Static Server + watching scss/html/njk files
+- Bootstrap 4
+
 ## Structure 
 - The `src` directory contains development code.
 - Compiled code for production can be found in the `dist` directory. 
@@ -54,17 +62,7 @@ Use this document as a way to quickly start any new project.
     └── img/
 ```
 
-
-## Features
-- Gulp.js
-- SASS compiler
-- CSS minify
-- Nunjucks render
-- Static Server + watching scss/html/njk files
-- Bootstrap 4
-
-## Example
-Set the page title and heading from parent.
+Example how to set the page title and heading from parent.
 ![alt text](https://raw.githubusercontent.com/milanmilosev/nunjucks-starter-pack/master/app/img/changing%20the%20page%20title.gif)
 
 ## For more information
