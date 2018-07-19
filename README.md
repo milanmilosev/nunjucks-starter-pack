@@ -1,2 +1,22 @@
+![alt text](https://raw.githubusercontent.com/milanmilosev/nunjucks-starter-pack/master/app/img/nunjucks.jpg)
+
 # nunjucks-starter-pack
-Easily change data in multiple HTML static files from one place
+Easily modify multiple HTML files from one place.
+Use this document as a way to quickly start any new project.
+
+[View the demo](https://milanmilosev.com/projects/nunjucks-starter-pack/)
+
+
+## Getting Started / Installation
+
+- download and unzip: https://github.com/milanmilosev/nunjucks-starter-pack/archive/master.zip
+- install dependencies ` npm `
+- run ` gulp `
+
+## Production
+- Run command ` gulp prod `
+
+## Structure 
+- The `src` directory contains development code.
+- Compiled code for production can be found in the `dist` directory.
+
